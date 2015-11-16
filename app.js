@@ -4,7 +4,8 @@ var express = require('express'),
     swig = require('swig'),
     bodyParser = require('body-parser'),
     mime = require('mime'),
-    fs = require('fs');
+    fs = require('fs'),
+    index = require('./models/index.js');
 
 // "constants" (not really) and our own modules
 var PORT = 1337,
